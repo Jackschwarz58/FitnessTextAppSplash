@@ -148,7 +148,7 @@ body {
 
 .team-section {
     padding-top: 6rem;
-    background-color: #fff;
+    background-color: #eee;
 }
 
 .text-about {
@@ -220,11 +220,14 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #fff;
 }
 .contact-section .card {
-  border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+    border: 0;
+    border-bottom: 0.25rem solid #5BABDE;
+    background-color: #9ADCFE;
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
@@ -233,7 +236,7 @@ body {
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #5BABDE;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -257,7 +260,8 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 3rem 0;
+    background-color: #ddd;
 }
 
 .btn-primary {
@@ -324,9 +328,14 @@ body {
 .team-indv-pic {
     border-radius: 50%;
     width:90%;
-    height:auto;
+    padding-bottom: .75rem;
 }
 
 #team-pic-row {
     padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.team-quotes {
+    color: #999;
 }
