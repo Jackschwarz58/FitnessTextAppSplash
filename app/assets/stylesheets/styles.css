@@ -9,8 +9,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #9ADCFE;
+  border: 1px solid #9ADCFE;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -64,15 +64,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #9ADCFE;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #9ADCFE;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #9ADCFE;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #9ADCFE;
   }
 }
 
@@ -141,15 +141,24 @@ body {
   background: linear-gradient(to top, #9ADCFE 0%, #ffffff 30%);
 }
 
+.info-section {
+  padding-top: 6rem;
+  background: linear-gradient(to top, #9ADCFE 0%, #ffffff 30%);
+}
+
 .text-about {
     color: #555;
 }
 
-.text-about-subheading {
+.text-section-subheading {
     color: #999;
 }
 
 .about-section p {
+  margin-bottom: 5rem;
+}
+
+.info-section p {
   margin-bottom: 5rem;
 }
 
@@ -268,4 +277,30 @@ body {
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    padding: .75rem 1rem;
+}
+
+#left-login-btn {
+    margin-left: 10px;
+    margin-right:15px;
+}
+
+#signup-btn {
+  color: #fff;
+  background-color: #5BABDE;
+  border-color: #5BABDE;
+  padding: .75rem 1rem;
+}
+#signup-btn:hover {
+  color: #fff;
+  background-color: #9ADCFE;
+  border-color: #9ADCFE;
 }
